@@ -1,0 +1,14 @@
+name: torch-rock
+base: ubuntu@22.04
+version: '0.1'
+summary: A rock for PyTorch, Jupyter and Matplotlib
+license: GPL-3.0
+description: |
+    This rock contains PyTorch, Jupyter and Matplotlib.
+    It is a rock for data science and machine learning.
+platforms: # the platforms this rock should be built on and run on
+    amd64:
+
+parts:
+  my-part:
+    plugin: nil
